@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crack Shack Home</title>
+        <link rel="stylesheet" href="./resources/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Joti+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="./resources/images/logo.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li class="top_nav item"><a href="#our_mission">Mission</a></li>
+                    <li class="top_nav item"><a href="#meet_team">Our Team</a></li>
+                    <li class="top_nav item"><a href="#find_loc">Locations</a></li>
+                    <li class="top_nav item"><a href="#make_appt">Appointments</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="main">
+            <div class="welcome">
+                <h1>Welcome to the</h1>
+            </div>
+            <div class="name">
+                <h1>Crack Shack</h1>
+            </div>
+        </div>
+
+        <!-- Mission Statement -->
+
+        <div class="mission">
+            <h2 id="our_mission">Our Mission</h2>
+            <div class="m_statement">
+                <p>Here at the Crack Shack, our team is dedicated to providing relief and care to people of all ages and backgrounds. From atheletes to families and everyone in between, our clinically proven chiropratic care is guaranteed to help you feel better by treating the root cause of your sypmtoms. So when you're in need of relief, come visit us at the Crack Shack so you can get back to being you!</p>
+            </div>
+        </div>
+
+        <!-- Team Members -->
+
+        <div class="team">
+            <h2 id="meet_team">Meet Our Team!</h2>
+            <div class="members">
+                <div class="team1">
+                    <div class="img_container">
+                        <img src="./resources/images/doc1.jpg" alt="">
+                    </div>
+                    <div class="about">
+                        <h3>Marla Jennings</h3>
+                        <p>Spokane</p>
+                    </div>
+                </div>
+                <div class="team1">
+                    <div class="img_container">
+                        <img src="./resources/images/doc2.jpg" alt="">
+                    </div>
+                    <div class="about">
+                        <h3>Hannah Reid</h3>
+                        <p>Coeur d'Alene</p>
+                    </div>
+                </div>
+                <div class="team1">
+                    <div class="img_container">
+                        <img src="./resources/images/doc3.jpg" alt="">
+                    </div>
+                    <div class="about">
+                        <h3>James Locke</h3>
+                        <p>Spokane</p>
+                    </div>
+                </div>
+                <div class="team1">
+                    <div class="img_container">
+                        <img src="./resources/images/doc4.jpg" alt="">
+                    </div>
+                    <div class="about">
+                        <h3>Heather Martinez</h3>
+                        <p>Post Falls</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Locations -->
+
+        <div class="locations">
+            <h2 id="find_loc">Find a Location Near You</h2>
+            <div class="spec_locations">
+                <div class="location_container">
+                    <h3>Coeur d'Alene</h3>
+                    <p>123 North Governent Way</p>
+                    <p>Second Floor</p>
+                    <p>Idaho</p>
+                </div>
+                <div class="location_container">
+                    <h3>Post Falls</h3>
+                    <p>456 East Mullan Avenue</p>
+                    <p>(Left Entrace)</p>
+                    <p>Idaho</p>
+                </div>
+                <div class="location_container">
+                    <h3>Spokane</h3>
+                    <p>789 West Sprague</p>
+                    <p>Suite 305</p>
+                    <p>Washington</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Appointments -->
+
+        <div class="appointments">
+            <h2 id="make_appt">Make an Appointment</h2>
+            <p>To make an appointment, please call us at <a href="#">(208)-614-8932</a> or fill out the form below:</p>
+            <div class="form">
+                <form action="" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" pattern="[a-zA-Z]+" required>
+
+                    <br>
+
+                    <label for="email">Email (optional):</label>
+                    <input type="text" name="email" id="email">
+
+                    <br>
+
+                    <label for="number">Contact Number:</label>
+                    <input type="text" name="number" id="number" pattern="[0-9]+{10}" required>
+
+                    <br>
+
+                    <label for="loc">Location:</label>
+                    <select name="loc" id="loc" required>
+                        <option value="cda">Coeur d'Alene</option>
+                        <option value="post_falls">Post Falls</option>
+                        <option value="spokane">Spokane</option>
+                    </select>
+
+                    <br>
+
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date" required>
+
+                    <br>
+
+                    <label for="pain_description">If possible, please describe where you are in pain (optional):</label>
+                    <br>
+                    <textarea name="pain_description" id="pain_description" cols="50" rows="5"></textarea>
+
+                    <br>
+
+                    <input type="submit" class="button">
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer>
+            <div class="copyright">
+                <p>&copy;Crack Shack 2024. All Rights Reserved.</p>
+            </div>
+            <div class="f_list">
+                <ul>
+                    <li class="b_nav item"><a href="">Privacy Policy</a></li>
+                    <li class="b_nav item"><a href="">Career Opportunities</a></li>
+                    <li class="b_nav item"><a href="">crackshack@gmail.com</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
